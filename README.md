@@ -8,24 +8,24 @@
 
 ```mermaid
 flowchart TD
-  repo["📁 src"]
+  repo["src"]
 
-  rules["📁 rules"]
-  entities["📁 entities"]
+  rules["rules"]
+  entities["entities"]
 
-  database["📄 database.py"]
-  protoeurobot["📄 protoeurobot.py"]
-  utils["📄 utils"]
-  web["📄 web.py"]
+  database["database.py"]
+  protoeurobot["protoeurobot.py"]
+  utils["utils"]
+  web["web.py"]
 
-  contest_rules["📄 CONTEST_RULES.txt"]
-  application_rules["📄 APPLICATION_RULES.txt"]
-  voting_rules["📄 VOTING_RULES.txt"]
+  contest_rules["CONTEST_RULES.txt"]
+  application_rules["APPLICATION_RULES.txt"]
+  voting_rules["VOTING_RULES.txt"]
 
-  application["📄 application.py"]
-  herald["📄 herald.py"]
-  points_table["📄 points_table.py"]
-  vote["📄 vote.py"]
+  application["application.py"]
+  herald["herald.py"]
+  points_table["points_table.py"]
+  vote["vote.py"]
 
   repo --> rules
   repo --> database
