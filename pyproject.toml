@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "protoeurobot"
+version = "0.0.1"
+authors = [
+    { name = "Belkin Svyatoslav", email = "loginnickname51@gmail.com" },
+]
+description = "Bot for organization of the handmade eurovision-like contests"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "aiohttp", "aiogram", "aiosqlite", "beautifulsoup4", "pypika", "brotli"
+]
